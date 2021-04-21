@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 body {
     padding: 0;
     margin: 0;
     background-color: #17141d;
     color: white;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h6 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+.main{
+    padding-top: 5%;
+    text-align: center;
 }
 
 a {
@@ -16,6 +29,8 @@ a {
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
+    padding-top: 12%;
+    align-items: center;
 }
 
 .card-list::-webkit-scrollbar {
@@ -84,7 +99,7 @@ a {
 }
 
 .card-header h2:hover {
-    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    background: linear-gradient(90deg,#ff8a00,#28242f);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -110,7 +125,6 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    filter: grayscale(100%);
     display: block;
     overflow: hidden;
     margin: 16px 10px;
